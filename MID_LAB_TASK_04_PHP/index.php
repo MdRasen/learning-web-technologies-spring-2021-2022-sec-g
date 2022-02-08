@@ -37,15 +37,50 @@ CheckNum(10);
 
 //04. Finding the largest number
 function CheckLarge($num1, $num2, $num3){
-    if($num%2 == 0){
-        echo $num." is even";
-    }
+    $maxNum = $num1;
 
-    else{
-        echo $num." is odd";
-    }
+  if ($num1 >= $num2 && $num1 >= $num3)
+    $maxNum = $num1;
+  if ($num2 >= $num1 && $num2 >= $num3)
+    $maxNum = $num2;
+  if ($num3 >= $num1 && $num3 >= $num2)
+    $maxNum = $num3;
+  
+  echo "Largest number is: $maxNum";
     echo "<br>";
 }
 CheckLarge(10,15,25);
+
+//05. Print all the odd numbers between 10 to 100 
+function PrintOdd(){
+    for($i=11; $i<100; $i=$i+2){
+        echo $i. "\n";
+    }
+
+    echo "<br>";
+}
+PrintOdd();
+
+//06. Search an element from an array
+function SearchElement($num){
+    $numbers = [12, 15, 18, 13, 8];
+
+    for($i=0; $i<4; $i++){
+        if($numbers[$i] == $num){
+            $found = true;
+            $index = $i;
+        }
+    }
+    
+    if($found == true){
+        echo "Number is found at index ".$index;
+    }
+
+    else{
+        echo "Number isn't found.";
+    }
+    echo "<br>";
+}
+SearchElement(18);
 
 ?>
