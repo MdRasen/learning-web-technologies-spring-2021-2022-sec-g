@@ -2,13 +2,13 @@
 
 if(isset($_REQUEST['submit']))
 {
-    $dob = $_REQUEST['dob'];
-    if($dob == ""){
+    $degree = $_REQUEST['degree'];
+    if($degree == ""){
         echo "Value is NULL!";
     }
     
     else{
-        echo $dob;
+        echo $degree;
     }	
 }
 
