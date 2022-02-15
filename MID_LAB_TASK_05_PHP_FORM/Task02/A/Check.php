@@ -2,13 +2,13 @@
 
 if(isset($_REQUEST['submit']))
 {
-    $name = $_REQUEST['name'];
-    if($name == ""){
+    $email = $_REQUEST['email'];
+    if($email == ""){
         echo "Value is NULL!";
     }
     
     else{
-        echo $name;
+        echo $email;
     }	
 }
 
