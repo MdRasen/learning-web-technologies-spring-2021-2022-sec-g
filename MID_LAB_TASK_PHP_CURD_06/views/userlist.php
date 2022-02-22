@@ -30,20 +30,16 @@
 			<td>123</td>
 			<td>alamin@aiub.edu</td>
 			<td>
-				<a href="create.php"> CREATE </a> |
-				<a href="read.php"> READ </a> |
 				<a href="edit.php?id=1"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
 			</td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Alamin</td>
-			<td>567</td>
-			<td>xyz@aiub.edu</td>
+			<td>rasen</td>
+			<td>1121</td>
+			<td>aamin.hossen99@gmail.com</td>
 			<td>
-				<a href="create.php"> CREATE </a> |
-				<a href="read.php"> READ </a> |
 				<a href="edit.php?id=2"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
 			</td>
@@ -54,9 +50,18 @@
 			<td>234</td>
 			<td>xyz@aiub.edu</td>
 			<td>
-				<a href="create.php"> CREATE </a> |
-				<a href="read.php"> READ </a> |
 				<a href="edit.php?id=3"> EDIT </a> |
+				<a href="delete.php"> DELETE </a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>Admin</td>
+			<td>admin</td>
+			<td>admin@aiub.edu</td>
+			<td>
+				<a href="edit.php?id=4"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
 			</td>
 		</tr>

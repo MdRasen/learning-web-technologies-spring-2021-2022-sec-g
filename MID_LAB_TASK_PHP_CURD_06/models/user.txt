@@ -1,5 +1,4 @@
-1|alamin|123|amin.se.aiub@gmail.com
-2|xyz|125|amin.se.aiub@gmail.com
-3|abc|126|amin.se.aiub@gmail.com
-4|pqr|127|amin.se.aiub@gmail.com
-5|asd|128|amin.se.aiub@gmail.com
+1|Alamin|123|alamin@aiub.edu
+2|rasen|1121|aamin.hossen99@gmail.com
+3|XYZ|234|xyz@aiub.edu
+4|Admin|admin|admin@aiub.edu
